@@ -1,7 +1,18 @@
 let image1 = ""
-let myPlaylistSongs = ["Bands", "New Tank", "Time Today", "Patek", "Runnin", "Portland"]
-let myPlaylistArtists = ["Comethazine", "Playboi Carti", "Moneybagg Yo", "Lil Uzi Vert", "21 Savage", "Drake"]
+let songNames = ["Bands", "New Tank", "Time Today", "Patek", "Runnin", "Portland"]
+let songArtists = ["Comethazine", "Playboi Carti", "Moneybagg Yo", "Lil Uzi Vert", "21 Savage", "Drake"]
 let songLength = ["1:38", "1:28", "2:16", "4:40", "3:15", "3:54"]
-let songImage = []
-let songLink = []
+let songImages = ["https://e.snmc.io/i/600/w/1a9c7342f77420c620961ca0de9cd7a5/6973763", 
+"https://i.ytimg.com/vi/nQC6MyBHceE/maxresdefault.jpg",
+"https://i1.sndcdn.com/artworks-QLryNlvP1LYP-0-t500x500.jpg",
+"https://i.ytimg.com/vi/GiqoknOr4z4/maxresdefault.jpg",
+"https://i.ytimg.com/vi/jbdROU6eJVg/maxresdefault.jpg", 
+"https://i.ytimg.com/vi/pBdVsDC4vpA/maxresdefault.jpg"]
+let songLinks = ["https://www.youtube.com/watch?v=6TOoD1-7_GY",
+  "https://www.youtube.com/watch?v=nQC6MyBHceE",
+  "https://www.youtube.com/watch?v=1H6xw0B3phU",
+  "https://www.youtube.com/watch?v=GiqoknOr4z4",
+  "https://www.youtube.com/watch?v=jbdROU6eJVg",
+  "https://www.youtube.com/watch?v=pBdVsDC4vpA"
+]
 $("body").html(image1);
