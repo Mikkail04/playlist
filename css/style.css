@@ -1,0 +1,31 @@
+body {
+  background-color:black;
+  color:black;
+}
+
+/* p {
+  display:flex;
+  border: blue dotted 1px;
+}
+
+.heading {
+  background-color:salmon;
+  display:flex;
+  border: blue solid 2px;
+  justify-content:space-evenly;
+} */
+
+.playlist {
+  background-color:salmon;
+  display:flex;
+  border: blue solid 2px;
+  flex-wrap:wrap;
+}
+
+img {
+  height:100px;
+  display:block;
+}
+li{
+  height:100px;
+}

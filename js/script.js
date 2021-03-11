@@ -1,4 +1,3 @@
-let image1 = ""
 let songNames = ["Bands", "New Tank", "Time Today", "Patek", "Runnin", "Portland"]
 let songArtists = ["Comethazine", "Playboi Carti", "Moneybagg Yo", "Lil Uzi Vert", "21 Savage", "Drake"]
 let songLength = ["1:38", "1:28", "2:16", "4:40", "3:15", "3:54"]
@@ -15,4 +14,16 @@ let songLinks = ["https://www.youtube.com/watch?v=6TOoD1-7_GY",
   "https://www.youtube.com/watch?v=jbdROU6eJVg",
   "https://www.youtube.com/watch?v=pBdVsDC4vpA"
 ]
-$("body").html(image1);
+
+for (let image of songImages){
+  $(".playlist-songImages").append(`<img src=${image}>`);
+}
+for (let song of songNames){
+  $(".playlist-songs").append(`<li>${song}</li>`);
+}
+for (let artist of songArtists){
+  $(".playlist-artists").append(`<li>${artist}</li>`);
+}
+for (let length of songLength){
+  $(".playlist-songLength").append(`<li>${length}</li>`);
+}
