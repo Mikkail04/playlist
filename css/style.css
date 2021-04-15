@@ -1,31 +1,24 @@
 body {
   background-color:black;
   color:black;
-}
-
-/* p {
-  display:flex;
-  border: blue dotted 1px;
-}
-
-.heading {
-  background-color:salmon;
   display:flex;
   border: blue solid 2px;
-  justify-content:space-evenly;
-} */
-
+  display:block;
+}
 .playlist {
   background-color:salmon;
-  display:flex;
-  border: blue solid 2px;
-  flex-wrap:wrap;
+}
+
+.song {
+  display:inline-block;
+  width:200px;
+}
+
+.inputs {
+  background-color:magenta;
 }
 
 img {
   height:100px;
-  display:block;
-}
-li{
-  height:100px;
+   display:block; 
 }
